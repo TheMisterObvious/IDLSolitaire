@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    * {
+        display: none;
+    }
+
+    html {
+        display: block;
+    }
+
+    body {
+        display: block;
+        background-color: #212327;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding: 200px 20px;
+    }
+
+    body::after {
+        content: "Ce site n'est pas encore optimisé pour les mobiles.";
+    }
+}

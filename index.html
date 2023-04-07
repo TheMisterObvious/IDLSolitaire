@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/pc.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <script defer type="module" src="./build/main.js"></script>
+    <title>IDL - MiniProjet</title>
+</head>
+<body>
+    <div id="popup-bg" class="hide"></div>
+
+    <a id="doc-lien" href="docs/" target="_blank"><img id="doc" src="./ressources/docs.png"></a>
+
+    <img id="aide" src="./ressources/help.png">
+    <div id="aide-popup" class="hide">
+        <img id="ferme-aide" class="ferme" src="./ressources/close.png">
+        Le but du solitaire est de former 4 piles de cartes (d'un même symbole) classées dans l’ordre croissant:
+        <br>• As, 2, 3, 4, 5, 6, 7, 8, 9, 10, Valet, Dame, Roi.
+        <br>• Ces 4 piles sont à réaliser à côté des 7 colonnes.
+        <br>• Chaque pile doit commencer par un As.
+        <br>
+        <br>Pour commencer, essayez tout d’abord de placer les cartes visibles de chaque colonne dans les piles de symboles.
+        <br>Si cela n’est pas possible, vous pouvez déplacer les cartes visibles entre les colonnes afin de pouvoir retourner les cartes cachées du dessous.
+        <br>Pour cela, il vous suffit de créer des suites décroissantes en alternant la couleur rouge et la noire dans les différentes colonnes.
+        <br>
+        <br>Exemple : Vous avez dans la 3ème colonne un 10 de trèfle et dans la 4ème colonne, un valet de cœur.
+        <br>
+        <br>Vous pouvez mettre le 10 à la suite du valet et ainsi retourner la carte cachée de la 3ème colonne.
+        <br>Si vous avez réussi à déplacer la carte visible d’une colonne vous pouvez alors retourner la première carte cachée et la déplacer si vous en avez la possibilité.
+        <br>
+        <br>Quand toutes les possibilités ont été jouées, vous devez piocher une carte dans votre talon. Vous pouvez alors soit la mettre directement dans votre pile de symboles, soit la placer dans une des colonnes a la suite de la dernière carte visible.
+        <br>Si vous ne pouvez pas jouer cette carte, vous devez la glisser sous votre talon et en reprendre une nouvelle jusqu’à ce que vous puissiez en placer une.
+    </div>
+
+    <img id="refresh" class="hide" src="./ressources/refresh.png">
+    <div id="refresh-popup" class="hide">
+        <img id="ferme-aide" class="ferme" src="./ressources/close.png">
+        <p>Êtes-vous sûr de vouloir recommencer ?</p>
+        <div id="refresh-btns">
+            <button id="refresh-non">Non</button>
+            <button id="refresh-oui">Oui</button>
+        </div>
+    </div>
+
+    <div id="victoire-popup" class="hide">
+        <img id="ferme-aide" class="ferme" src="./ressources/close.png">
+        <p>Bravo !! vous avez gagné !</p>
+        <div id="victoire-btns">
+            <button id="victoire-quitter">Quitter</button>
+            <button id="victoire-recommencer">Recommencer</button>
+        </div>
+    </div>
+
+    <div id="start-div">
+        <h1 class="text-shadow-pop-bl">IDL - MiniProjet</h1>
+        <button id="solitaire-btn">Jouer au Solitaire</button>
+    </div>
+
+    <div id="solitaire" class="hide">
+        <div style="display: flex; height: fit-content; margin-bottom: 40px;">
+            <div id="deck">
+                <img id="deck-card" class="carte" src="./ressources/dos_cartes.png">
+                <div id="paquet"></div>
+            </div>
+            <div id="piles-as">
+                <div id="pileAs1" class="vide pileAs"></div>
+                <div id="pileAs2" class="vide pileAs"></div>
+                <div id="pileAs3" class="vide pileAs"></div>
+                <div id="pileAs4" class="vide pileAs"></div>
+            </div>
+        </div>
+        <div id="terrain">
+            <div id="pile1" class="pile"></div>
+            <div id="pile2" class="pile"></div>
+            <div id="pile3" class="pile"></div>
+            <div id="pile4" class="pile"></div>
+            <div id="pile5" class="pile"></div>
+            <div id="pile6" class="pile"></div>
+            <div id="pile7" class="pile"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "name": "idl_miniprojet_cartes",
+    "scripts": {
+        "docs": "typedoc --readme README.md --entryPointStrategy expand src"
+    },
+    "devDependencies": {
+        "typedoc": "^0.22.12"
+    }
+}

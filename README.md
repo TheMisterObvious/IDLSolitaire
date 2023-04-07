@@ -78,8 +78,3 @@ Il vous est possible de le modifier autant que vous le souhaitez, aucun citation
 ## Contact
 
 [![Github](https://img.shields.io/badge/Github-%23161b22.svg?logo=Github&logoColor=white)](https://github.com/TheMisterObvious) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/th3misterobvious) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/20817296) [![Website](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=up&url=https%3A%2F%2Fstudio-evident.fr)](https://studio-evident.fr)
-<br>
-
-## Gtihub
-
-Si vous rencontrez un **bug**, que vous voulez faire une **suggestion** d'ajout ou que vous voulez suivre **l'avancement** du projet, sachez que ce projet sera sur mon github, [Ici](https://github.com/TheMisterObvious/IDLSolitaire).

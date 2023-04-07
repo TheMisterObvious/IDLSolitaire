@@ -1,6 +1,6 @@
 # IDL Mini-Projet
 
-Ce projet réalisé par **Matis GOUBARD (groupe 287O)** est un simple solitaire.
+Ce projet réalisé par **Sqlt+ _GNYG%M (groupe ???µ)** est un simple solitaire.
 
 Il à pour but d'être évaluer sur sa documentation aussi bien du **code** que de ce **README**.
 
@@ -77,10 +77,7 @@ Il vous est possible de le modifier autant que vous le souhaitez, aucun citation
 
 ## Contact
 
-[![Github](https://img.shields.io/badge/Github-%23161b22.svg?logo=Github&logoColor=white)](https://github.com/TheMisterObvious) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/matis.goubard) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/20817296) [![Website](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=up&url=https%3A%2F%2Fstudio-evident.fr)](https://studio-evident.fr)
-
-<ins>**Email universitaire:**</ins> [matis.goubard@etu.univ-nantes.fr](mailto:matis.goubard@etu.univ-nantes.fr)<br>
-<ins>**Email profesionnel:**</ins> [contact@studio-evident.fr](mailto:contact@studio-evident.fr)
+[![Github](https://img.shields.io/badge/Github-%23161b22.svg?logo=Github&logoColor=white)](https://github.com/TheMisterObvious) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/th3misterobvious) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/20817296) [![Website](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=up&url=https%3A%2F%2Fstudio-evident.fr)](https://studio-evident.fr)
 <br>
 
 ## Gtihub
